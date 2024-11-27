@@ -1,22 +1,12 @@
 # k8s
-# Kubeadm Installation Guide
+# Kubeadm Installation
 
-This guide outlines the steps needed to set up a Kubernetes cluster using kubeadm.
-
-## Pre-requisites
-
-- Ubuntu OS (Xenial or later)
-- sudo privileges
 - Internet access
 - t2.medium instance type or higher
-
 ---
-
 ## AWS Setup
 
 - Make sure your all instance are in same **Security group**.
-- Expose port **6443** in the **Security group**, so that worker nodes can join the cluster.
-
 ---
 
 ## Execute on Both "Master" & "Worker Node"
